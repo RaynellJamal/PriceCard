@@ -1,0 +1,113 @@
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400, 700;
+	background-color: hsl(204, 43%, 93%);
+}
+
+#container {
+	display: grid;
+	justify-content: center;
+	grid-column: 50%;
+	width: 50%;
+	margin: 10em auto;
+	grid-template-areas: "a a" "b c";
+}
+
+.top {
+	grid-area: a;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 25px;
+	-webkit-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.join {
+	color: hsl(179, 62%, 43%);
+	margin-left: 40px;
+}
+
+.day {
+	color: hsl(71, 73%, 54%);
+	margin-left: 40px;
+}
+
+.top > p {
+	margin-left: 40px;
+	opacity: .4;
+}
+
+.left {
+	grid-area: b;
+	color: white;
+	justify-content: center;
+	background-color: hsl(179, 60%, 45%);
+	border-bottom-left-radius: 10px;
+	padding-right: 85px;
+	margin-bottom: 70px;
+	-webkit-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.left h2 {
+	margin-left: 40px;
+}
+
+.left .twentynine {
+	margin-left: 40px;
+	font-size: 35px;
+}
+
+.left .month {
+	opacity: .5;
+}
+
+.left .price {
+	margin-left: 40px;
+	margin-top: 20px;
+	opacity: .8;
+}
+
+.signup {
+	background-color: hsl(71, 72%, 53%);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	width: 85%;
+	height: 15%;
+	padding-bottom: 3px;
+	margin: 40px;
+	-webkit-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.right {
+	grid-area: c;
+	background-color: hsl(179, 45%, 52%);
+	color: white;
+	text-align: left;
+	border-bottom-right-radius: 10px;
+	padding-right: 85px;
+	margin-bottom: 70px;
+	-webkit-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.right h2 {
+	margin-left: 50px;
+}
+
+.right > p {
+	text-align: left;
+	line-height: 5px;
+	margin-left: 50px;
+	padding-top: 2px;
+	opacity: .6;
+
+}
